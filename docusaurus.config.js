@@ -1,7 +1,7 @@
 module.exports = {
   title: 'XMiY',
   tagline: `mlcheng's blog`,
-  url: 'mlcheng-blog.vercel.app',
+  url: 'https://mlcheng-blog.vercel.app/',
   baseUrl: '/',
   // onBrokenLinks: 'throw',
   // onBrokenMarkdownLinks: 'warn',
@@ -18,17 +18,13 @@ module.exports = {
       },
       items: [
         {
+          to: '/'
+        },
+        {
           to: 'blog',
           label: '博客',
           position: 'right'
         },
-        // {
-        //   to: 'docs/',
-        //   activeBasePath: 'docs',
-        //   label: 'Docs',
-        //   position: 'left'
-        // },
-        // { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/MingLiCheng/mlcheng-blog',
           label: 'GitHub',
@@ -38,51 +34,6 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      // links: [
-      //   {
-      //     title: 'Docs',
-      //     items: [
-      //       {
-      //         label: 'Style Guide',
-      //         to: 'docs/'
-      //       },
-      //       {
-      //         label: 'Second Doc',
-      //         to: 'docs/doc2/'
-      //       }
-      //     ]
-      //   },
-      //   {
-      //     title: 'Community',
-      //     items: [
-      //       {
-      //         label: 'Stack Overflow',
-      //         href: 'https://stackoverflow.com/questions/tagged/docusaurus'
-      //       },
-      //       {
-      //         label: 'Discord',
-      //         href: 'https://discordapp.com/invite/docusaurus'
-      //       },
-      //       {
-      //         label: 'Twitter',
-      //         href: 'https://twitter.com/docusaurus'
-      //       }
-      //     ]
-      //   },
-      //   {
-      //     title: 'More',
-      //     items: [
-      //       {
-      //         label: 'Blog',
-      //         to: 'blog'
-      //       },
-      //       {
-      //         label: 'GitHub',
-      //         href: 'https://github.com/facebook/docusaurus'
-      //       }
-      //     ]
-      //   }
-      // ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
     }
   },
@@ -106,5 +57,5 @@ module.exports = {
       }
     ]
   ],
-  themes: ["@docusaurus/theme-live-codeblock"],
+  themes: ['@docusaurus/theme-live-codeblock']
 }
