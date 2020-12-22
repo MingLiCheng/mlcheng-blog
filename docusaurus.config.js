@@ -17,9 +17,9 @@ module.exports = {
         src: 'img/logo.png'
       },
       items: [
-        // {
-        //   to: '/'
-        // },
+        {
+          to: '/'
+        },
         {
           to: 'blog',
           label: '博客',
@@ -47,8 +47,6 @@ module.exports = {
           editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/'
         },
         blog: {
-          path: './blog',
-          routeBasePath: '/',
           showReadingTime: true,
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/'
