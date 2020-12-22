@@ -21,8 +21,13 @@ module.exports = {
           to: '/'
         },
         {
-          to: 'blog',
+          to: '/blog',
           label: '博客',
+          position: 'right'
+        },
+        {
+          to: 'docs',
+          label: '文档',
           position: 'right'
         },
         {
@@ -47,6 +52,7 @@ module.exports = {
           editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/'
         },
         blog: {
+          path: './blog',
           showReadingTime: true,
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/'
